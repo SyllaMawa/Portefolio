@@ -733,6 +733,153 @@ footer {
     .contact-banner h2 { font-size: 2.5rem; }
 }
 
+/* Mobile - iPhone 15 (393px) and small screens */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    section {
+        padding: 80px 0;
+    }
+
+    /* Navigation */
+    header {
+        height: 70px;
+    }
+
+    .nav-links {
+        gap: 12px;
+        justify-content: center;
+    }
+
+    .nav-links a {
+        font-size: 0.8rem;
+    }
+
+    .nav-links .btn-primary {
+        padding: 8px 14px !important;
+        font-size: 0.8rem !important;
+    }
+
+    /* Hero */
+    .hero {
+        padding: 60px 0 50px;
+    }
+
+    .hero-text h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-text h2 {
+        font-size: 1.4rem !important;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+
+    .hero-btns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* CV Card */
+    .cv-preview-card {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .cv-image-thumb {
+        height: 300px;
+    }
+
+    /* About */
+    .section-head h3 {
+        font-size: 2rem !important;
+    }
+
+    /* Project Grid */
+    .project-masonry {
+        grid-template-columns: 1fr;
+    }
+
+    .project-item {
+        padding: 25px;
+        border-radius: 25px;
+    }
+
+    .project-item.featured {
+        grid-column: span 1;
+        flex-direction: column;
+    }
+
+    /* Service / Skills Cards */
+    .service-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-card {
+        padding: 35px;
+        border-radius: 25px;
+    }
+
+    .service-card h3 {
+        font-size: 1.2rem;
+    }
+
+    /* Interview Card */
+    .interview-card {
+        padding: 35px 25px;
+        margin: 80px auto 60px;
+        border-radius: 25px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .interview-content h2 {
+        font-size: 1.6rem;
+    }
+
+    .interview-btns {
+        justify-content: center;
+    }
+
+    .interview-btns .btn-primary,
+    .interview-btns .btn-outline {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .interview-visual {
+        display: none;
+    }
+
+    /* Contact */
+    .contact-section {
+        padding: 80px 15px;
+    }
+
+    .contact-banner {
+        padding: 40px 25px;
+        border-radius: 25px;
+    }
+
+    .contact-banner h2 {
+        font-size: 1.8rem;
+    }
+
+    .contact-text {
+        font-size: 1rem;
+    }
+
+    .contact-btn {
+        padding: 14px 28px;
+        font-size: 0.9rem;
+    }
+}
+
 /* Animations */
 .reveal {
     opacity: 0;
