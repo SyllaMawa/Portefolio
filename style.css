@@ -729,6 +729,7 @@ footer {
     .hero-btns { justify-content: center; }
     .hero-visual { display: none; }
     .skill-bars { grid-template-columns: 1fr; }
+    .project-grid { grid-template-columns: 1fr !important; }
     .contact-banner { padding: 60px 30px; }
     .contact-banner h2 { font-size: 2.5rem; }
 }
@@ -800,8 +801,9 @@ footer {
     }
 
     /* Project Grid */
-    .project-masonry {
-        grid-template-columns: 1fr;
+    .project-masonry,
+    .project-grid {
+        grid-template-columns: 1fr !important;
     }
 
     .project-item {
@@ -812,6 +814,10 @@ footer {
     .project-item.featured {
         grid-column: span 1;
         flex-direction: column;
+    }
+
+    .project-item.featured .project-content h3 {
+        font-size: 1.4rem !important;
     }
 
     /* Service / Skills Cards */
