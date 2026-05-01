@@ -1,0 +1,8 @@
+{
+  "name": "portfolio-antigravity",
+  "version": "1.0.0",
+  "description": "Portfolio Data Analyst",
+  "scripts": {
+    "dev": "npx serve ."
+  }
+}
